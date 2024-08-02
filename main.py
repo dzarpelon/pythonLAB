@@ -10,8 +10,7 @@ CSV= os.getenv('CSV_FILE')
 
 DF = pd.read_csv(CSV)
 
-
-
+print(DF.head())
 
 
 
